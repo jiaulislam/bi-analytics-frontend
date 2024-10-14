@@ -55,7 +55,7 @@ export const companyWiseSalableStock: ColumnDef<CompanyWiseTotalSelableStock>[] 
 
 export const SalableStockPercentage: ColumnDef<SelableStockPercentage>[] = [
   {
-    accessorKey: "compnayName",
+    accessorKey: "companyName",
     header: ({ column }) => (
       <DataTableColumnHeader column={column} title="Company Name" />
     ),
@@ -89,7 +89,7 @@ export const SalableStockPercentage: ColumnDef<SelableStockPercentage>[] = [
 export const InvestorWiseSalableStock: ColumnDef<InvestorWiseTotalSelableStock>[] =
   [
     {
-      accessorKey: "compnayName",
+      accessorKey: "companyName",
       header: ({ column }) => (
         <DataTableColumnHeader column={column} title="Company Name" />
       ),
